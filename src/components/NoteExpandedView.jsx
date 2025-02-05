@@ -70,7 +70,7 @@ const NoteExpandedView = ({ note, onClose }) => {
           <div className="mb-4 flex items-center space-x-4">
             <audio controls className="w-full">
               <source
-                src={`${import.meta.env.API_BASE_URL}/${note.audio}`}
+                src={`https://7t2w9w-5000.csb.app/${note.audio}`}
                 type="audio/webm"
               />
               Your browser does not support the audio element.

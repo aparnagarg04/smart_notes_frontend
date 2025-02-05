@@ -11,7 +11,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        `${import.meta.env.API_BASE_URL}/api/auth/login`,
+        "https://7t2w9w-5000.csb.app/api/auth/login",
         {
           email,
           password,
