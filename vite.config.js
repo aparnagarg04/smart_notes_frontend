@@ -5,7 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
-    allowedHosts: ["t3qqy5-5173.csb.app"], // Allow frontend host
+    allowedHosts: [".csb.app"], // Allow all subdomains of csb.app
     headers: {
       "Content-Security-Policy":
         "default-src * 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline';",
