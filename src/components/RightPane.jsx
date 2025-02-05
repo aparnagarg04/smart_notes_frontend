@@ -298,7 +298,7 @@ const RightPane = () => {
             {note.audio && (
               <audio controls className="w-full mt-2">
                 <source
-                  src={`http://localhost:5000/${note.audio}`}
+                  src={`${import.meta.env.API_BASE_URL}/${note.audio}`}
                   type="audio/webm"
                 />
                 Your browser does not support the audio element.
